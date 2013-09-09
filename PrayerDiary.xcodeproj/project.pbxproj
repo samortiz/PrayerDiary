@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2216751215B1AB14003D489E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2216751115B1AB14003D489E /* Default@2x.png */; };
+		2216751715B1AFC5003D489E /* app_icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 2216751415B1AED1003D489E /* app_icon_114.png */; };
+		223B51AB15B41F8E0088C4AB /* prayerbutton_bl.png in Resources */ = {isa = PBXBuildFile; fileRef = 223B51A715B41F8E0088C4AB /* prayerbutton_bl.png */; };
+		223B51AC15B41F8E0088C4AB /* prayerbutton_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 223B51A815B41F8E0088C4AB /* prayerbutton_empty.png */; };
+		223B51AD15B41F8E0088C4AB /* prayerbutton_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 223B51A915B41F8E0088C4AB /* prayerbutton_filled.png */; };
+		223B51AE15B41F8E0088C4AB /* prayerbutton_tr.png in Resources */ = {isa = PBXBuildFile; fileRef = 223B51AA15B41F8E0088C4AB /* prayerbutton_tr.png */; };
+		225389F815AEB2CD00D2EB98 /* SetDateAnsweredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225389F715AEB2CD00D2EB98 /* SetDateAnsweredViewController.m */; };
+		22C0307315C14038000CB7BA /* MiscTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C0307215C14037000CB7BA /* MiscTableViewController.m */; };
+		22C0307615C18EAD000CB7BA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C0307515C18EAD000CB7BA /* MessageUI.framework */; };
+		22D29A6A15C97CCF00DC85EF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D29A6915C97CCF00DC85EF /* Default.png */; };
+		22D29A6F15C97ECA00DC85EF /* app_icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D29A6E15C97ECA00DC85EF /* app_icon_57.png */; };
+		22D54C2915C0403800DF0B15 /* prayer_data_example.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22D54C2815C0403800DF0B15 /* prayer_data_example.plist */; };
+		22D8F21715C916630069DCF0 /* CalendarCellViewPrayerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8F21615C916620069DCF0 /* CalendarCellViewPrayerButton.m */; };
+		22D8F21A15C91D0D0069DCF0 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8F21915C91D0D0069DCF0 /* CalendarView.m */; };
+		22DBFF0415ADC0B100D4BB2A /* DetailItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DBFF0315ADC0B100D4BB2A /* DetailItemViewController.m */; };
+		22DDFA7715AFF34C00012909 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDFA7615AFF34C00012909 /* CalendarViewController.m */; };
+		22DDFA8215AFF3D000012909 /* CXCalendarCellViewDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDFA7D15AFF3D000012909 /* CXCalendarCellViewDefault.m */; };
+		22DDFA8315AFF3D000012909 /* CXCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDFA7F15AFF3D000012909 /* CXCalendarView.m */; };
+		22DDFA8915B02A0E00012909 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDFA8815B02A0D00012909 /* DateUtils.m */; };
+		22DE2F3015AC329E0003CB83 /* PrayerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE2F2F15AC329E0003CB83 /* PrayerButton.m */; };
+		22E1907915BFF7530027E8EB /* tab_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E1907315BFF7530027E8EB /* tab_a.png */; };
+		22E1907A15BFF7530027E8EB /* tab_a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E1907415BFF7530027E8EB /* tab_a@2x.png */; };
+		22E1907B15BFF7530027E8EB /* tab_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E1907515BFF7530027E8EB /* tab_p.png */; };
+		22E1907C15BFF7530027E8EB /* tab_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E1907615BFF7530027E8EB /* tab_p@2x.png */; };
+		22E1907D15BFF7530027E8EB /* tab_q.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E1907715BFF7530027E8EB /* tab_q.png */; };
+		22E1907E15BFF7530027E8EB /* tab_q@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E1907815BFF7530027E8EB /* tab_q@2x.png */; };
+		22E2EBBA15A808F900F2E26D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E2EBB915A808F900F2E26D /* UIKit.framework */; };
+		22E2EBBC15A808F900F2E26D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E2EBBB15A808F900F2E26D /* Foundation.framework */; };
+		22E2EBBE15A808F900F2E26D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E2EBBD15A808F900F2E26D /* CoreGraphics.framework */; };
+		22E2EBC415A808F900F2E26D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22E2EBC215A808F900F2E26D /* InfoPlist.strings */; };
+		22E2EBC615A808F900F2E26D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2EBC515A808F900F2E26D /* main.m */; };
+		22E2EBCA15A808F900F2E26D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2EBC915A808F900F2E26D /* AppDelegate.m */; };
+		22E2EBCD15A808F900F2E26D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E2EBCB15A808F900F2E26D /* MainStoryboard.storyboard */; };
+		22E2EBD015A808F900F2E26D /* NameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2EBCF15A808F900F2E26D /* NameViewController.m */; };
+		22E2EBD315A808F900F2E26D /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2EBD215A808F900F2E26D /* ItemViewController.m */; };
+		22E2EBDF15A80BFD00F2E26D /* NewNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2EBDE15A80BFD00F2E26D /* NewNameViewController.m */; };
+		22E2EBE215A80F4A00F2E26D /* prayer_journal.pda in Resources */ = {isa = PBXBuildFile; fileRef = 22E2EBE115A80F4900F2E26D /* prayer_journal.pda */; };
+		22E5BB3115AAB8B800CF4CFE /* NewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E5BB3015AAB8B800CF4CFE /* NewItemViewController.m */; };
+		22E5BB3815AAEE3000CF4CFE /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E5BB3715AAEE3000CF4CFE /* DataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2216751115B1AB14003D489E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2216751415B1AED1003D489E /* app_icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_114.png; sourceTree = "<group>"; };
+		223B51A715B41F8E0088C4AB /* prayerbutton_bl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prayerbutton_bl.png; sourceTree = "<group>"; };
+		223B51A815B41F8E0088C4AB /* prayerbutton_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prayerbutton_empty.png; sourceTree = "<group>"; };
+		223B51A915B41F8E0088C4AB /* prayerbutton_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prayerbutton_filled.png; sourceTree = "<group>"; };
+		223B51AA15B41F8E0088C4AB /* prayerbutton_tr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prayerbutton_tr.png; sourceTree = "<group>"; };
+		225389F615AEB2CD00D2EB98 /* SetDateAnsweredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetDateAnsweredViewController.h; sourceTree = "<group>"; };
+		225389F715AEB2CD00D2EB98 /* SetDateAnsweredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetDateAnsweredViewController.m; sourceTree = "<group>"; };
+		22C0307115C14037000CB7BA /* MiscTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiscTableViewController.h; sourceTree = "<group>"; };
+		22C0307215C14037000CB7BA /* MiscTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiscTableViewController.m; sourceTree = "<group>"; };
+		22C0307515C18EAD000CB7BA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		22D29A6915C97CCF00DC85EF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22D29A6E15C97ECA00DC85EF /* app_icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_57.png; sourceTree = "<group>"; };
+		22D54C2815C0403800DF0B15 /* prayer_data_example.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = prayer_data_example.plist; sourceTree = "<group>"; };
+		22D8F21515C916620069DCF0 /* CalendarCellViewPrayerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCellViewPrayerButton.h; sourceTree = "<group>"; };
+		22D8F21615C916620069DCF0 /* CalendarCellViewPrayerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCellViewPrayerButton.m; sourceTree = "<group>"; };
+		22D8F21815C91D0C0069DCF0 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		22D8F21915C91D0D0069DCF0 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		22D8F21B15C927170069DCF0 /* CXCalendarCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXCalendarCellView.h; path = Calendar/CXCalendarCellView.h; sourceTree = "<group>"; };
+		22DBFF0215ADC0B100D4BB2A /* DetailItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailItemViewController.h; sourceTree = "<group>"; };
+		22DBFF0315ADC0B100D4BB2A /* DetailItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailItemViewController.m; sourceTree = "<group>"; };
+		22DDFA7515AFF34C00012909 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		22DDFA7615AFF34C00012909 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		22DDFA7C15AFF3D000012909 /* CXCalendarCellViewDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXCalendarCellViewDefault.h; path = Calendar/CXCalendarCellViewDefault.h; sourceTree = "<group>"; };
+		22DDFA7D15AFF3D000012909 /* CXCalendarCellViewDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXCalendarCellViewDefault.m; path = Calendar/CXCalendarCellViewDefault.m; sourceTree = "<group>"; };
+		22DDFA7E15AFF3D000012909 /* CXCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXCalendarView.h; path = Calendar/CXCalendarView.h; sourceTree = "<group>"; };
+		22DDFA7F15AFF3D000012909 /* CXCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXCalendarView.m; path = Calendar/CXCalendarView.m; sourceTree = "<group>"; };
+		22DDFA8715B02A0C00012909 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
+		22DDFA8815B02A0D00012909 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+		22DE2F2E15AC329E0003CB83 /* PrayerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayerButton.h; sourceTree = "<group>"; };
+		22DE2F2F15AC329E0003CB83 /* PrayerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayerButton.m; sourceTree = "<group>"; };
+		22E1907315BFF7530027E8EB /* tab_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_a.png; sourceTree = "<group>"; };
+		22E1907415BFF7530027E8EB /* tab_a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_a@2x.png"; sourceTree = "<group>"; };
+		22E1907515BFF7530027E8EB /* tab_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_p.png; sourceTree = "<group>"; };
+		22E1907615BFF7530027E8EB /* tab_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_p@2x.png"; sourceTree = "<group>"; };
+		22E1907715BFF7530027E8EB /* tab_q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_q.png; sourceTree = "<group>"; };
+		22E1907815BFF7530027E8EB /* tab_q@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_q@2x.png"; sourceTree = "<group>"; };
+		22E2EBB515A808F900F2E26D /* PrayerDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E2EBB915A808F900F2E26D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22E2EBBB15A808F900F2E26D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22E2EBBD15A808F900F2E26D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22E2EBC115A808F900F2E26D /* PrayerDiary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrayerDiary-Info.plist"; sourceTree = "<group>"; };
+		22E2EBC315A808F900F2E26D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22E2EBC515A808F900F2E26D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22E2EBC715A808F900F2E26D /* PrayerDiary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrayerDiary-Prefix.pch"; sourceTree = "<group>"; };
+		22E2EBC815A808F900F2E26D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22E2EBC915A808F900F2E26D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22E2EBCC15A808F900F2E26D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22E2EBCE15A808F900F2E26D /* NameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameViewController.h; sourceTree = "<group>"; };
+		22E2EBCF15A808F900F2E26D /* NameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameViewController.m; sourceTree = "<group>"; };
+		22E2EBD115A808F900F2E26D /* ItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		22E2EBD215A808F900F2E26D /* ItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
+		22E2EBDD15A80BFD00F2E26D /* NewNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewNameViewController.h; sourceTree = "<group>"; };
+		22E2EBDE15A80BFD00F2E26D /* NewNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewNameViewController.m; sourceTree = "<group>"; };
+		22E2EBE115A80F4900F2E26D /* prayer_journal.pda */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = prayer_journal.pda; sourceTree = "<group>"; };
+		22E5BB2F15AAB8B800CF4CFE /* NewItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewItemViewController.h; sourceTree = "<group>"; };
+		22E5BB3015AAB8B800CF4CFE /* NewItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewItemViewController.m; sourceTree = "<group>"; };
+		22E5BB3615AAEE3000CF4CFE /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		22E5BB3715AAEE3000CF4CFE /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22E2EBB215A808F900F2E26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C0307615C18EAD000CB7BA /* MessageUI.framework in Frameworks */,
+				22E2EBBA15A808F900F2E26D /* UIKit.framework in Frameworks */,
+				22E2EBBC15A808F900F2E26D /* Foundation.framework in Frameworks */,
+				22E2EBBE15A808F900F2E26D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22DBFF0015ADA83D00D4BB2A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				22E1907315BFF7530027E8EB /* tab_a.png */,
+				22E1907415BFF7530027E8EB /* tab_a@2x.png */,
+				22E1907515BFF7530027E8EB /* tab_p.png */,
+				22E1907615BFF7530027E8EB /* tab_p@2x.png */,
+				22E1907715BFF7530027E8EB /* tab_q.png */,
+				22E1907815BFF7530027E8EB /* tab_q@2x.png */,
+				223B51A715B41F8E0088C4AB /* prayerbutton_bl.png */,
+				223B51A815B41F8E0088C4AB /* prayerbutton_empty.png */,
+				223B51A915B41F8E0088C4AB /* prayerbutton_filled.png */,
+				223B51AA15B41F8E0088C4AB /* prayerbutton_tr.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		22DDFA8615B018BC00012909 /* CXCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				22DDFA7E15AFF3D000012909 /* CXCalendarView.h */,
+				22DDFA7F15AFF3D000012909 /* CXCalendarView.m */,
+				22D8F21B15C927170069DCF0 /* CXCalendarCellView.h */,
+				22DDFA7C15AFF3D000012909 /* CXCalendarCellViewDefault.h */,
+				22DDFA7D15AFF3D000012909 /* CXCalendarCellViewDefault.m */,
+			);
+			name = CXCalendar;
+			sourceTree = "<group>";
+		};
+		22E2EBAA15A808F900F2E26D = {
+			isa = PBXGroup;
+			children = (
+				22D29A6E15C97ECA00DC85EF /* app_icon_57.png */,
+				22D29A6915C97CCF00DC85EF /* Default.png */,
+				22C0307515C18EAD000CB7BA /* MessageUI.framework */,
+				2216751415B1AED1003D489E /* app_icon_114.png */,
+				2216751115B1AB14003D489E /* Default@2x.png */,
+				22E2EBBF15A808F900F2E26D /* PrayerDiary */,
+				22E2EBB815A808F900F2E26D /* Frameworks */,
+				22E2EBB615A808F900F2E26D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22E2EBB615A808F900F2E26D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E2EBB515A808F900F2E26D /* PrayerDiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22E2EBB815A808F900F2E26D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22E2EBB915A808F900F2E26D /* UIKit.framework */,
+				22E2EBBB15A808F900F2E26D /* Foundation.framework */,
+				22E2EBBD15A808F900F2E26D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22E2EBBF15A808F900F2E26D /* PrayerDiary */ = {
+			isa = PBXGroup;
+			children = (
+				22E2EBC815A808F900F2E26D /* AppDelegate.h */,
+				22E2EBC915A808F900F2E26D /* AppDelegate.m */,
+				22E5BB3615AAEE3000CF4CFE /* DataManager.h */,
+				22E5BB3715AAEE3000CF4CFE /* DataManager.m */,
+				22E2EBCB15A808F900F2E26D /* MainStoryboard.storyboard */,
+				22E2EBCE15A808F900F2E26D /* NameViewController.h */,
+				22E2EBCF15A808F900F2E26D /* NameViewController.m */,
+				22E2EBDD15A80BFD00F2E26D /* NewNameViewController.h */,
+				22E2EBDE15A80BFD00F2E26D /* NewNameViewController.m */,
+				22E2EBD115A808F900F2E26D /* ItemViewController.h */,
+				22E2EBD215A808F900F2E26D /* ItemViewController.m */,
+				22E5BB2F15AAB8B800CF4CFE /* NewItemViewController.h */,
+				22E5BB3015AAB8B800CF4CFE /* NewItemViewController.m */,
+				22DBFF0215ADC0B100D4BB2A /* DetailItemViewController.h */,
+				22DBFF0315ADC0B100D4BB2A /* DetailItemViewController.m */,
+				22DDFA7515AFF34C00012909 /* CalendarViewController.h */,
+				22DDFA7615AFF34C00012909 /* CalendarViewController.m */,
+				22D8F21815C91D0C0069DCF0 /* CalendarView.h */,
+				22D8F21915C91D0D0069DCF0 /* CalendarView.m */,
+				22D8F21515C916620069DCF0 /* CalendarCellViewPrayerButton.h */,
+				22D8F21615C916620069DCF0 /* CalendarCellViewPrayerButton.m */,
+				225389F615AEB2CD00D2EB98 /* SetDateAnsweredViewController.h */,
+				225389F715AEB2CD00D2EB98 /* SetDateAnsweredViewController.m */,
+				22DE2F2E15AC329E0003CB83 /* PrayerButton.h */,
+				22DE2F2F15AC329E0003CB83 /* PrayerButton.m */,
+				22E2EBE115A80F4900F2E26D /* prayer_journal.pda */,
+				22D54C2815C0403800DF0B15 /* prayer_data_example.plist */,
+				22DDFA8715B02A0C00012909 /* DateUtils.h */,
+				22DDFA8815B02A0D00012909 /* DateUtils.m */,
+				22C0307115C14037000CB7BA /* MiscTableViewController.h */,
+				22C0307215C14037000CB7BA /* MiscTableViewController.m */,
+				22DDFA8615B018BC00012909 /* CXCalendar */,
+				22DBFF0015ADA83D00D4BB2A /* images */,
+				22E2EBC015A808F900F2E26D /* Supporting Files */,
+			);
+			path = PrayerDiary;
+			sourceTree = "<group>";
+		};
+		22E2EBC015A808F900F2E26D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22E2EBC115A808F900F2E26D /* PrayerDiary-Info.plist */,
+				22E2EBC215A808F900F2E26D /* InfoPlist.strings */,
+				22E2EBC515A808F900F2E26D /* main.m */,
+				22E2EBC715A808F900F2E26D /* PrayerDiary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22E2EBB415A808F900F2E26D /* PrayerDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E2EBD615A808F900F2E26D /* Build configuration list for PBXNativeTarget "PrayerDiary" */;
+			buildPhases = (
+				22E2EBB115A808F900F2E26D /* Sources */,
+				22E2EBB215A808F900F2E26D /* Frameworks */,
+				22E2EBB315A808F900F2E26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrayerDiary;
+			productName = PrayerDiary;
+			productReference = 22E2EBB515A808F900F2E26D /* PrayerDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22E2EBAC15A808F900F2E26D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 22E2EBAF15A808F900F2E26D /* Build configuration list for PBXProject "PrayerDiary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22E2EBAA15A808F900F2E26D;
+			productRefGroup = 22E2EBB615A808F900F2E26D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22E2EBB415A808F900F2E26D /* PrayerDiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22E2EBB315A808F900F2E26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E2EBC415A808F900F2E26D /* InfoPlist.strings in Resources */,
+				22E2EBCD15A808F900F2E26D /* MainStoryboard.storyboard in Resources */,
+				22E2EBE215A80F4A00F2E26D /* prayer_journal.pda in Resources */,
+				2216751215B1AB14003D489E /* Default@2x.png in Resources */,
+				2216751715B1AFC5003D489E /* app_icon_114.png in Resources */,
+				223B51AB15B41F8E0088C4AB /* prayerbutton_bl.png in Resources */,
+				223B51AC15B41F8E0088C4AB /* prayerbutton_empty.png in Resources */,
+				223B51AD15B41F8E0088C4AB /* prayerbutton_filled.png in Resources */,
+				223B51AE15B41F8E0088C4AB /* prayerbutton_tr.png in Resources */,
+				22E1907915BFF7530027E8EB /* tab_a.png in Resources */,
+				22E1907A15BFF7530027E8EB /* tab_a@2x.png in Resources */,
+				22E1907B15BFF7530027E8EB /* tab_p.png in Resources */,
+				22E1907C15BFF7530027E8EB /* tab_p@2x.png in Resources */,
+				22E1907D15BFF7530027E8EB /* tab_q.png in Resources */,
+				22E1907E15BFF7530027E8EB /* tab_q@2x.png in Resources */,
+				22D54C2915C0403800DF0B15 /* prayer_data_example.plist in Resources */,
+				22D29A6A15C97CCF00DC85EF /* Default.png in Resources */,
+				22D29A6F15C97ECA00DC85EF /* app_icon_57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E2EBB115A808F900F2E26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E2EBC615A808F900F2E26D /* main.m in Sources */,
+				22E2EBCA15A808F900F2E26D /* AppDelegate.m in Sources */,
+				22E2EBD015A808F900F2E26D /* NameViewController.m in Sources */,
+				22E2EBD315A808F900F2E26D /* ItemViewController.m in Sources */,
+				22E2EBDF15A80BFD00F2E26D /* NewNameViewController.m in Sources */,
+				22E5BB3115AAB8B800CF4CFE /* NewItemViewController.m in Sources */,
+				22E5BB3815AAEE3000CF4CFE /* DataManager.m in Sources */,
+				22DE2F3015AC329E0003CB83 /* PrayerButton.m in Sources */,
+				22DBFF0415ADC0B100D4BB2A /* DetailItemViewController.m in Sources */,
+				225389F815AEB2CD00D2EB98 /* SetDateAnsweredViewController.m in Sources */,
+				22DDFA7715AFF34C00012909 /* CalendarViewController.m in Sources */,
+				22DDFA8215AFF3D000012909 /* CXCalendarCellViewDefault.m in Sources */,
+				22DDFA8315AFF3D000012909 /* CXCalendarView.m in Sources */,
+				22DDFA8915B02A0E00012909 /* DateUtils.m in Sources */,
+				22C0307315C14038000CB7BA /* MiscTableViewController.m in Sources */,
+				22D8F21715C916630069DCF0 /* CalendarCellViewPrayerButton.m in Sources */,
+				22D8F21A15C91D0D0069DCF0 /* CalendarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22E2EBC215A808F900F2E26D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E2EBC315A808F900F2E26D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22E2EBCB15A808F900F2E26D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E2EBCC15A808F900F2E26D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22E2EBD415A808F900F2E26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yang Wang (R73UG7QLCV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "74E6E80B-04DD-407B-B6F9-1787C4CCD633";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22E2EBD515A808F900F2E26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E2EBD715A808F900F2E26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrayerDiary/PrayerDiary-Prefix.pch";
+				HEADER_SEARCH_PATHS = /Users/sam/Documents/iOS/Kal/src;
+				INFOPLIST_FILE = "PrayerDiary/PrayerDiary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22E2EBD815A808F900F2E26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrayerDiary/PrayerDiary-Prefix.pch";
+				HEADER_SEARCH_PATHS = /Users/sam/Documents/iOS/Kal/src;
+				INFOPLIST_FILE = "PrayerDiary/PrayerDiary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22E2EBAF15A808F900F2E26D /* Build configuration list for PBXProject "PrayerDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E2EBD415A808F900F2E26D /* Debug */,
+				22E2EBD515A808F900F2E26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E2EBD615A808F900F2E26D /* Build configuration list for PBXNativeTarget "PrayerDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E2EBD715A808F900F2E26D /* Debug */,
+				22E2EBD815A808F900F2E26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22E2EBAC15A808F900F2E26D /* Project object */;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Sam</string>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>dates_prayed</key>
+				<array>
+					<date>2012-07-08T07:53:52Z</date>
+					<date>2012-07-10T07:54:06Z</date>
+				</array>
+				<key>dates_prayed_w_companion</key>
+				<array>
+					<date>2012-07-07T07:56:26Z</date>
+					<date>2012-07-09T07:56:33Z</date>
+				</array>
+				<key>answered_comment</key>
+				<string>thank You, Lord</string>
+				<key>answered_date</key>
+				<date>2012-07-27T13:27:27Z</date>
+				<key>answered</key>
+				<string>Yes</string>
+				<key>description</key>
+				<string>normal growth unto maturity</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
